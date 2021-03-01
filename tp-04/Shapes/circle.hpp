@@ -62,5 +62,13 @@ public:
 		return result;
 	}
 
+	PointContainer intersect(const Shape& shape) const{
+	    return shape.intersect(*this);
+	}
+
+    std::ostream& print(std::ostream& os) const override{
+        return os << "line through " << center << " & " << radius;
+    }
+
 	~Circle() = default;
 };

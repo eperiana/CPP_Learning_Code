@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/c3-5-tuples.dir/5-tuples.cpp.o  -o c3-5-tuples 

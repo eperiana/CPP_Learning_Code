@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/c2-5-polygon.dir/5-polygon/main.cpp.o  -o c2-5-polygon 

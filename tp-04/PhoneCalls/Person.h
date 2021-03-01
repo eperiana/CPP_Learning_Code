@@ -7,7 +7,7 @@
 class Person
 {
 public:
-	Person(std::string_view name, int position)
+	Person(std::string name, int position)
 		: _name { name }
 		, _position { position }
 	{}
@@ -24,7 +24,7 @@ public:
 
 	void set_position(int position)
 	{
-		position = _position;
+		_position = position;
 	}
 
 private:

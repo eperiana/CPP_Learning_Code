@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/c3-4-strings.dir/4-strings.cpp.o  -o c3-4-strings 

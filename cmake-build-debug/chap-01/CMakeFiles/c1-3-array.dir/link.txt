@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/c1-3-array.dir/3-array.cpp.o  -o c1-3-array 

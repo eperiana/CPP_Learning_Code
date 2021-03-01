@@ -1,0 +1,72 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/circle.hpp
+cassert
+-
+cmath
+-
+point.hpp
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/point.hpp
+shape.hpp
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/shape.hpp
+line.hpp
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/line.hpp
+
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/line.hpp
+cassert
+-
+shape.hpp
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/shape.hpp
+point.hpp
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/point.hpp
+
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/line_seg.hpp
+line.hpp
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/line.hpp
+
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/main.cpp
+iostream
+-
+vector
+-
+circle.hpp
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/circle.hpp
+rectangle.hpp
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/rectangle.hpp
+line_seg.hpp
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/line_seg.hpp
+line.hpp
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/line.hpp
+shape.hpp
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/shape.hpp
+
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/point.hpp
+ostream
+-
+cmath
+-
+
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/rectangle.hpp
+array
+-
+point.hpp
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/point.hpp
+shape.hpp
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/shape.hpp
+line.hpp
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/line.hpp
+line_seg.hpp
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/line_seg.hpp
+
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/shape.hpp
+point.hpp
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/point.hpp
+list
+-
+

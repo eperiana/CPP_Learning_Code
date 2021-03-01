@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/tp1-exo4.dir/exo4.cpp.o  -o tp1-exo4 

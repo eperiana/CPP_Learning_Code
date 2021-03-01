@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/tp2-reminders.dir/Reminders.cpp.o CMakeFiles/tp2-reminders.dir/Parsing.cpp.o  -o tp2-reminders 

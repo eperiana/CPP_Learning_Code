@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/c4-1-hierarchy.dir/1-hierarchy/Hierarchy.cpp.o CMakeFiles/c4-1-hierarchy.dir/1-hierarchy/Boss.cpp.o CMakeFiles/c4-1-hierarchy.dir/1-hierarchy/Staff.cpp.o CMakeFiles/c4-1-hierarchy.dir/1-hierarchy/Intern.cpp.o  -o c4-1-hierarchy 

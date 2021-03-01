@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/tp4-shapes.dir/Shapes/main.cpp.o  -o tp4-shapes 

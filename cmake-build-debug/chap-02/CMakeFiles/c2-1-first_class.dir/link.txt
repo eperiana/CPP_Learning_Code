@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/c2-1-first_class.dir/1-first_class.cpp.o  -o c2-1-first_class 

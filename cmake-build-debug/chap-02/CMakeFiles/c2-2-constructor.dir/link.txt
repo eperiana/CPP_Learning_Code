@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/c2-2-constructor.dir/2-constructor.cpp.o  -o c2-2-constructor 

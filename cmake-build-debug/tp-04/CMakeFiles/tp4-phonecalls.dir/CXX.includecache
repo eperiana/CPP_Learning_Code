@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/PhoneCalls/HomePhone.h
+Phone.h
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/PhoneCalls/Phone.h
+
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/PhoneCalls/Main.cpp
+Person.h
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/PhoneCalls/Person.h
+Phone.h
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/PhoneCalls/Phone.h
+HomePhone.h
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/PhoneCalls/HomePhone.h
+MobilePhone.h
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/PhoneCalls/MobilePhone.h
+
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/PhoneCalls/MobilePhone.h
+
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/PhoneCalls/Person.h
+iostream
+-
+string
+-
+string_view
+-
+
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/PhoneCalls/Phone.h
+Person.h
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/PhoneCalls/Person.h
+

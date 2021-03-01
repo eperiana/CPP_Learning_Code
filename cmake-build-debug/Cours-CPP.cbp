@@ -1,0 +1,1337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Cours-CPP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\chap-01\;CMake Files\chap-02\;CMake Files\chap-03\;CMake Files\chap-04\;CMake Files\tp-01\;CMake Files\tp-02\;CMake Files\tp-03\;CMake Files\tp-04\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c1-2-parrot">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/c1-2-parrot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 c1-2-parrot"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c1-2-parrot/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/c1-2-parrot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 c1-2-parrot/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c1-1-hello_world">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/c1-1-hello_world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 c1-1-hello_world"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c1-1-hello_world/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/c1-1-hello_world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 c1-1-hello_world/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c1-3-array">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/c1-3-array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 c1-3-array"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c1-3-array/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/c1-3-array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 c1-3-array/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c1-4-calculator">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/c1-4-calculator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 c1-4-calculator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c1-4-calculator/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/c1-4-calculator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 c1-4-calculator/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c2-5-polygon">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/c2-5-polygon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 c2-5-polygon"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c2-5-polygon/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/c2-5-polygon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 c2-5-polygon/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c2-2-constructor">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/c2-2-constructor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 c2-2-constructor"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c2-2-constructor/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/c2-2-constructor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 c2-2-constructor/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c2-3-clone">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/c2-3-clone" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 c2-3-clone"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c2-3-clone/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/c2-3-clone" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 c2-3-clone/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c2-1-first_class">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/c2-1-first_class" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 c2-1-first_class"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c2-1-first_class/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/c2-1-first_class" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 c2-1-first_class/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c2-4-rectangle">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/c2-4-rectangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 c2-4-rectangle"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c2-4-rectangle/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/c2-4-rectangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 c2-4-rectangle/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c3-3-associatives">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/c3-3-associatives" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 c3-3-associatives"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c3-3-associatives/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/c3-3-associatives" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 c3-3-associatives/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c3-1-vectors">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/c3-1-vectors" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 c3-1-vectors"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c3-1-vectors/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/c3-1-vectors" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 c3-1-vectors/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c3-4-strings">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/c3-4-strings" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 c3-4-strings"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c3-4-strings/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/c3-4-strings" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 c3-4-strings/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c3-2-sequentials">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/c3-2-sequentials" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 c3-2-sequentials"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c3-2-sequentials/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/c3-2-sequentials" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 c3-2-sequentials/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c3-5-tuples">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/c3-5-tuples" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 c3-5-tuples"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c3-5-tuples/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/c3-5-tuples" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 c3-5-tuples/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c4-1-hierarchy">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/c4-1-hierarchy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 c4-1-hierarchy"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c4-1-hierarchy/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/c4-1-hierarchy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 c4-1-hierarchy/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c4-2-farm">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/c4-2-farm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 c4-2-farm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c4-2-farm/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/c4-2-farm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 c4-2-farm/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c4-3-vehicles">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/c4-3-vehicles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 c4-3-vehicles"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c4-3-vehicles/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/c4-3-vehicles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 c4-3-vehicles/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/chap-04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp1-translator">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/tp1-translator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 tp1-translator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp1-translator/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/tp1-translator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 tp1-translator/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp1-exo4">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/tp1-exo4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 tp1-exo4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp1-exo4/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/tp1-exo4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 tp1-exo4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp1-exo2">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/tp1-exo2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 tp1-exo2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp1-exo2/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/tp1-exo2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 tp1-exo2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp1-exo3">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/tp1-exo3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 tp1-exo3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp1-exo3/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/tp1-exo3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 tp1-exo3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp2-reminders">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-02/tp2-reminders" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-02"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-02/Makefile&quot;  VERBOSE=1 tp2-reminders"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp2-reminders/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-02/tp2-reminders" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-02"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-02/Makefile&quot;  VERBOSE=1 tp2-reminders/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp3-phonebook">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-03/tp3-phonebook" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-03/Makefile&quot;  VERBOSE=1 tp3-phonebook"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp3-phonebook/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-03/tp3-phonebook" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-03/Makefile&quot;  VERBOSE=1 tp3-phonebook/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp4-shapes">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/tp4-shapes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/Makefile&quot;  VERBOSE=1 tp4-shapes"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp4-shapes/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/tp4-shapes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/Makefile&quot;  VERBOSE=1 tp4-shapes/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp4-phonecalls">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/tp4-phonecalls" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/Makefile&quot;  VERBOSE=1 tp4-phonecalls"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp4-phonecalls/fast">
+				<Option output="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/tp4-phonecalls" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/Makefile&quot;  VERBOSE=1 tp4-phonecalls/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/etienne/Documents/M1\ 2020-2021/C++/CPP_Learning_Code/cmake-build-debug/tp-04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-01/1-hello_world.cpp">
+			<Option target="c1-1-hello_world"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-01/2-parrot.cpp">
+			<Option target="c1-2-parrot"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-01/3-array.cpp">
+			<Option target="c1-3-array"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-01/4-calculator.cpp">
+			<Option target="c1-4-calculator"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-02/1-first_class.cpp">
+			<Option target="c2-1-first_class"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-02/2-constructor.cpp">
+			<Option target="c2-2-constructor"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-02/3-clone.cpp">
+			<Option target="c2-3-clone"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-02/4-rectangle/Rectangle.cpp">
+			<Option target="c2-4-rectangle"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-02/4-rectangle/Rectangle.h">
+			<Option target="c2-4-rectangle"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-02/4-rectangle/main.cpp">
+			<Option target="c2-4-rectangle"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-02/5-polygon/main.cpp">
+			<Option target="c2-5-polygon"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-02/5-polygon/realloc.h">
+			<Option target="c2-5-polygon"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-03/1-vectors.cpp">
+			<Option target="c3-1-vectors"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-03/2-sequentials.cpp">
+			<Option target="c3-2-sequentials"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-03/3-associatives/keys.h">
+			<Option target="c3-3-associatives"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-03/3-associatives/main.cpp">
+			<Option target="c3-3-associatives"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-03/4-strings.cpp">
+			<Option target="c3-4-strings"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-03/5-tuples.cpp">
+			<Option target="c3-5-tuples"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/1-hierarchy/Boss.cpp">
+			<Option target="c4-1-hierarchy"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/1-hierarchy/Boss.h">
+			<Option target="c4-1-hierarchy"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/1-hierarchy/Hierarchy.cpp">
+			<Option target="c4-1-hierarchy"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/1-hierarchy/Intern.cpp">
+			<Option target="c4-1-hierarchy"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/1-hierarchy/Intern.h">
+			<Option target="c4-1-hierarchy"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/1-hierarchy/Rank.h">
+			<Option target="c4-1-hierarchy"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/1-hierarchy/Staff.cpp">
+			<Option target="c4-1-hierarchy"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/1-hierarchy/Staff.h">
+			<Option target="c4-1-hierarchy"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/2-farm/Animal.h">
+			<Option target="c4-2-farm"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/2-farm/Cat.h">
+			<Option target="c4-2-farm"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/2-farm/Chicken.h">
+			<Option target="c4-2-farm"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/2-farm/Cow.h">
+			<Option target="c4-2-farm"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/2-farm/Dog.h">
+			<Option target="c4-2-farm"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/2-farm/FarmHouse.cpp">
+			<Option target="c4-2-farm"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/3-vehicles/Car.h">
+			<Option target="c4-3-vehicles"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/3-vehicles/Program.cpp">
+			<Option target="c4-3-vehicles"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/3-vehicles/Scooter.h">
+			<Option target="c4-3-vehicles"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/3-vehicles/Vehicle.h">
+			<Option target="c4-3-vehicles"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-01/exo2.cpp">
+			<Option target="tp1-exo2"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-01/exo3.cpp">
+			<Option target="tp1-exo3"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-01/exo4.cpp">
+			<Option target="tp1-exo4"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-01/translator.cpp">
+			<Option target="tp1-translator"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-02/Event.h">
+			<Option target="tp2-reminders"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-02/Parsing.cpp">
+			<Option target="tp2-reminders"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-02/Parsing.h">
+			<Option target="tp2-reminders"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-02/Reminders.cpp">
+			<Option target="tp2-reminders"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-03/PhoneBook/Tests.cpp">
+			<Option target="tp3-phonebook"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-03/PhoneBook/Tests.h">
+			<Option target="tp3-phonebook"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/PhoneCalls/Main.cpp">
+			<Option target="tp4-phonecalls"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/PhoneCalls/Person.h">
+			<Option target="tp4-phonecalls"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/PhoneCalls/Phone.h">
+			<Option target="tp4-phonecalls"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/circle.hpp">
+			<Option target="tp4-shapes"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/line.hpp">
+			<Option target="tp4-shapes"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/line_seg.hpp">
+			<Option target="tp4-shapes"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/main.cpp">
+			<Option target="tp4-shapes"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/point.hpp">
+			<Option target="tp4-shapes"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/rectangle.hpp">
+			<Option target="tp4-shapes"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/Shapes/shape.hpp">
+			<Option target="tp4-shapes"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\chap-01\"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\chap-02\"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\chap-03\"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-04/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\chap-04\"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tp-01\"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tp-02\"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tp-03\"/>
+		</Unit>
+		<Unit filename="/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/tp-04/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tp-04\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

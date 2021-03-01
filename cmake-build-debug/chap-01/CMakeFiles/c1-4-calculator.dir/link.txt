@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/c1-4-calculator.dir/4-calculator.cpp.o  -o c1-4-calculator 

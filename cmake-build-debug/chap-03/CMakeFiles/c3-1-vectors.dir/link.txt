@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/c3-1-vectors.dir/1-vectors.cpp.o  -o c3-1-vectors 

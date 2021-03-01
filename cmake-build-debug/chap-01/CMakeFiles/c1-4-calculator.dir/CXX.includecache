@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/etienne/Documents/M1 2020-2021/C++/CPP_Learning_Code/chap-01/4-calculator.cpp
+iostream
+-
+string
+-
+vector
+-
+
